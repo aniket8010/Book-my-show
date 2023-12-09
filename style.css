@@ -1,0 +1,31 @@
+header{
+    background-color: #333545;
+    padding: 20px 50px;
+    
+}
+header .left .search_bar{
+    background-color: white;
+    width: 80%;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+    
+}
+header .left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+header .left .search_bar input{
+    width: 90%;
+    padding:  10px;
+    border: none;
+
+    
+}
+header .left .search_bar input:focus{
+outline: none;
+}
